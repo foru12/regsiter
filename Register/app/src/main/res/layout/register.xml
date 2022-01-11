@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="295dp"
+        android:layout_height="425dp"
+
+        android:background="@drawable/radius"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:circularflow_defaultRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/login1"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="login"
+            android:inputType="textPersonName"
+
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="none|textVisiblePassword|text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+
+        <Button
+            android:id="@+id/SIgnIn"
+            android:layout_width="220dp"
+            android:layout_height="72dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="40dp"
+            android:onClick="onClickSAVE"
+            android:text="Зарегистрироваться"
+            app:cornerRadius="30dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#36393f"
+android:orientation="vertical">
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Дата рождения"
+        android:textColorHint="@color/white"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+    android:gravity="center"
+    android:id="@+id/EtLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Login"
+    android:textColorHint="@color/white"
+    android:inputType="text"
+        android:textColor="@color/white"
+    android:textSize="25sp"
+    android:textStyle="bold" />
+
+<EditText
+    android:gravity="center"
+    android:id="@+id/ETPassword"
+    android:textColorHint="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Пароль"
+    android:inputType="text"
+    android:textColor="@color/white"
+    android:textSize="25sp"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/FIO"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:gravity="center"
+    android:hint="ФИО"
+    android:inputType="text"
+    android:textColor="@color/white"
+    android:textColorHint="@color/white"
+    android:textSize="25sp"
+    android:textStyle="bold" />
+
+<EditText
+    android:gravity="center"
+    android:id="@+id/PlaceOfBirth"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Место рождения"
+    android:textColorHint="@color/white"
+    android:inputType="text|textCapCharacters"
+    android:textColor="@color/white"
+    android:textSize="25sp"
+    android:textStyle="bold" />
+
+
+<EditText
+    android:gravity="center"
+    android:id="@+id/editTextPhone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Номер телефона"
+    android:inputType="numberSigned"
+    android:textColor="@color/white"
+    android:textColorHint="@color/white"
+    android:textSize="25sp"
+    android:textStyle="bold" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="89dp"
+        android:layout_gravity="center"
+        android:onClick="onClickSave"
+        android:text="Зарегистрироваться"
+        android:textSize="20sp"
+        app:cornerRadius="30dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="read"
+        android:text="Button"
+        app:cornerRadius="30dp" />
+
+</LinearLayout>
+
+</LinearLayout>
